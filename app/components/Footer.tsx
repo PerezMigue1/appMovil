@@ -2,6 +2,7 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Linking } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import Icon from 'react-native-vector-icons/FontAwesome6';
 import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from "@react-navigation/native";
 import { LinearGradient } from "expo-linear-gradient"; // Para gradientes
@@ -71,7 +72,7 @@ const Footer = () => {
                             <MaterialIcons name="facebook" size={24} color="#3b5998" />
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() => abrirRedSocial("https://x.com")}>
-                            <Icons name="X" size={24} color="#1da1f2" />
+                            <Icon name="x-twitter" size={24} color="#fff" />
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() => abrirRedSocial("https://instagram.com")}>
                             <Icons name="instagram" size={24} color="#e1306c" />
